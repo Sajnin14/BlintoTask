@@ -6,13 +6,13 @@
     padding: 0;
 }
 
-body{
+body {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-header{
-    background-image: linear-gradient(#FDFBFF, #FCFEFF, #FBFCFF, #FAFCFF, #F9FCFF, #F7FCFF, #F3FCFF, #F1FCFF, #EEF7FF, #D1DBFB, #CBD5E1, #888EE3 );
+header {
+    background-image: linear-gradient(#FDFBFF, #FCFEFF, #FBFCFF, #FAFCFF, #F9FCFF, #F7FCFF, #F3FCFF, #F1FCFF, #EEF7FF, #D1DBFB, #CBD5E1, #888EE3);
 }
 
 .padding {
@@ -28,7 +28,7 @@ header{
     font-weight: 400;
 }
 
-.text18{
+.text18 {
     font-size: 1.125rem;
 }
 
@@ -36,7 +36,7 @@ li {
     list-style: none;
 }
 
-ul li:hover{
+ul li:hover {
     color: #4F46E5;
 }
 
@@ -45,7 +45,7 @@ ul li:hover{
     gap: 2rem;
 }
 
-button{
+button {
     padding: 13px 20px;
     font-size: 1rem;
     font-weight: 700;
@@ -53,9 +53,9 @@ button{
     border-radius: 1234px;
 }
 
-.tagLine{
+.tagLine {
     color: #4F46E5;
-    background-color:  #EEF2FF;
+    background-color: #EEF2FF;
     font-size: 0.8rem;
     font-weight: 600;
     padding: 6px 12px;
@@ -63,11 +63,11 @@ button{
     border: none;
 }
 
-.btn{
-   margin-right: 0.5rem;
+.btn {
+    margin-right: 0.5rem;
 }
 
-h1{
+h1 {
     color: #1E293B;
     font-size: 3.7rem;
     font-weight: 800;
@@ -81,7 +81,7 @@ nav {
     font-weight: 700;
 }
 
-.navFlex{
+.navFlex {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -92,36 +92,36 @@ nav {
     color: #fff;
 }
 
-.navMenu{
+.navMenu {
     display: none;
 }
 
-.smallNav{
-   background-color: #fff;
-   padding: 10px;
-   border-radius: 14px;
-   position: absolute;
-   right: 8px;
-   top: 80px;
-   z-index: 1;
-   display: none;
+.smallNav {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 14px;
+    position: absolute;
+    right: 8px;
+    top: 80px;
+    z-index: 1;
+    display: none;
 }
 
-.smallNav li{
+.smallNav li {
     margin-bottom: 2px;
 }
 
-.navMenu:hover .smallNav{
+.navMenu:hover .smallNav {
     display: block;
 }
 
 /* Hero Styles */
-.hero{
+.hero {
     padding: 6rem 13rem 4rem 13rem;
     text-align: center;
 }
 
-.appStore{
+.appStore {
     margin: 3rem 0 4rem 0;
     display: flex;
     align-items: center;
@@ -129,20 +129,20 @@ nav {
     gap: 8px;
 }
 
-.hero-img{
+.hero-img {
     margin: 0 6.5rem;
     position: relative;
 }
 
-.hero-img img{
+.hero-img img {
     width: 100%;
 }
 
-.hero-img1{
+.hero-img1 {
     position: relative;
 }
 
-.hero-img2{
+.hero-img2 {
     max-width: 230px;
     max-height: 467.85px;
     position: absolute;
@@ -153,3 +153,26 @@ nav {
 
 
 
+/* brand section starts */
+.brandSection {
+    background-color: #F8FAFC;
+    padding: 4rem 0;
+    /* margin: 0 auto; */
+    margin-bottom: 2rem;
+
+}
+
+/* .brand-flex{
+    margin: 0 1rem;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   gap: 4rem;
+} */
+
+.brand-flex {
+    /* margin: 0 1rem; */
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
