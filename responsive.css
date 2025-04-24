@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    body{
+    body {
         margin: 0 auto;
         padding: 1rem;
     }
@@ -8,16 +8,31 @@
         padding: 1rem;
     }
 
-    .hero{
+    .hero {
         padding: 1rem;
         text-align: center;
     }
 
-    .bigNav{
+    .bigNav {
         display: none;
     }
 
-    .navMenu{
+    .navMenu {
         display: block;
+    }
+
+    .hero-img {
+        margin: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .hero-img2 {
+        max-width: 87.02px;
+        max-height: 177px;
+        position: absolute;
+        z-index: 1;
+        right: 20%;
+        bottom: 0;
     }
 }

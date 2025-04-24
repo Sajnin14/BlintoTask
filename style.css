@@ -11,6 +11,10 @@ body{
     margin: 0 auto;
 }
 
+header{
+    background-image: linear-gradient(#FDFBFF, #FCFEFF, #FBFCFF, #FAFCFF, #F9FCFF, #F7FCFF, #F3FCFF, #F1FCFF, #EEF7FF, #D1DBFB, #CBD5E1, #888EE3 );
+}
+
 .padding {
     padding: 1rem 7rem;
 }
@@ -125,7 +129,27 @@ nav {
     gap: 8px;
 }
 
+.hero-img{
+    margin: 0 6.5rem;
+    position: relative;
+}
+
 .hero-img img{
     width: 100%;
-
 }
+
+.hero-img1{
+    position: relative;
+}
+
+.hero-img2{
+    max-width: 230px;
+    max-height: 467.85px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 8%;
+}
+
+
+
