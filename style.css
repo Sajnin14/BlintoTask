@@ -1,16 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.plusFont{
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.padding {
+    padding: 1rem 7rem;
+}
+
+.plusFont {
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.fontColor {
+    color: #475569;
+    font-weight: 400;
+}
 
-h3{
-    color: red;
+.text18{
+    font-size: 1.125rem;
+}
+
+li {
+    list-style: none;
+}
+
+ul li:hover{
+    color: #4F46E5;
+}
+
+.flex {
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    padding: 13px 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #CBD5E1;
+    border-radius: 1234px;
+}
+
+.tagLine{
+    color: #4F46E5;
+    background-color:  #EEF2FF;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 1234px;
+    border: none;
+}
+
+.btn{
+   margin-right: 0.5rem;
+}
+
+h1{
+    color: #1E293B;
+    font-size: 3.7rem;
+    font-weight: 800;
+    line-height: 4.2rem;
+    margin: 1.5rem auto;
+}
+
+/* navbar styles */
+nav {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn2 {
+    background-color: #4F46E5;
+    color: #fff;
+}
+
+.navMenu{
+    display: none;
+}
+
+.smallNav{
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 14px;
+   position: absolute;
+   right: 8px;
+   top: 80px;
+   z-index: 1;
+   display: none;
+}
+
+.smallNav li{
+    margin-bottom: 2px;
+}
+
+.navMenu:hover .smallNav{
+    display: block;
+}
+
+/* Hero Styles */
+.hero{
+    padding: 6rem 13rem 4rem 13rem;
+    text-align: center;
+}
+
+.appStore{
+    margin: 3rem 0 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero-img img{
+    width: 100%;
+
 }
