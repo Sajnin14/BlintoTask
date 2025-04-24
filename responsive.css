@@ -1,11 +1,16 @@
 @media screen and (max-width: 600px) {
     body {
         margin: 0 auto;
-        padding: 1rem;
+        padding: 0;
     }
 
     .padding {
         padding: 1rem;
+    }
+
+    .padding-t-b{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
     }
 
     .hero {
@@ -34,5 +39,30 @@
         z-index: 1;
         right: 20%;
         bottom: 0;
+    }
+
+    /* brand section starts */
+    .brandSection {
+        padding: 2rem 0;
+    
+    }
+
+    .brand-flex {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .brand-flex div{
+        max-width: 94px;
+        max-height: 60px;
+    }
+
+
+    /* main features section starts */
+    .featureHeading{
+        text-align: center;
+        margin: 0 1rem;
     }
 }

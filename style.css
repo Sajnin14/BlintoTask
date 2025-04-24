@@ -16,7 +16,12 @@ header {
 }
 
 .padding {
-    padding: 1rem 7rem;
+    padding: 0 7rem;
+}
+
+.padding-t-b{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .plusFont {
@@ -28,8 +33,33 @@ header {
     font-weight: 400;
 }
 
+h1 {
+    color: #1E293B;
+    font-size: 3.7rem;
+    font-weight: 800;
+    line-height: 4.2rem;
+    margin: 1.5rem auto;
+}
+
+h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #1E293B;
+    line-height: 44px;
+    margin: 1.5rem auto;
+}
+
 .text18 {
     font-size: 1.125rem;
+}
+
+
+.text20{
+    font-size: 1.25rem;
+}
+
+.text-center{
+    text-align: center;
 }
 
 li {
@@ -67,16 +97,10 @@ button {
     margin-right: 0.5rem;
 }
 
-h1 {
-    color: #1E293B;
-    font-size: 3.7rem;
-    font-weight: 800;
-    line-height: 4.2rem;
-    margin: 1.5rem auto;
-}
-
 /* navbar styles */
 nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-size: 1rem;
     font-weight: 700;
 }
@@ -157,8 +181,6 @@ nav {
 .brandSection {
     background-color: #F8FAFC;
     padding: 4rem 0;
-    /* margin: 0 auto; */
-    margin-bottom: 2rem;
 
 }
 
@@ -170,9 +192,20 @@ nav {
 } */
 
 .brand-flex {
-    /* margin: 0 1rem; */
+
     display: flex;
     gap: 4rem;
     align-items: center;
     justify-content: center;
+}
+
+.brand-flex div{
+    width: 100%;
+}
+
+
+/* Primary/main Features Section Starts */
+.featureHeading{
+    text-align: center;
+    margin: 0 13rem;
 }
