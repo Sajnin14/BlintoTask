@@ -409,4 +409,52 @@ nav {
 }
 
 
+/* Question section styles */
+.questionSection{
+    background-color: #F8FAFC;
+}
+
+.question-content2{
+    margin-top: 3rem;
+}
+
+.full-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.question{
+    display: flex;
+    gap: 8px;
+    color: #334155;
+    font-weight: 800;
+    padding: 1rem;
+}
+
+.question-icon{
+    font-size: 22px;
+    color: #1E293B;
+    font-weight: bolder;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #CBD5E1;
+}
+
+.question-answer{
+    font-size: 14px;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.question-subcontent:hover .question-answer{
+    display: block;
+}
+
+
+
+
 
