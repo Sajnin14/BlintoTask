@@ -158,5 +158,63 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+
+    /* download app section */
+
+    .appContent{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 8px; */
+    }
+
+    .appContent1{
+        margin: 1rem 0;
+        width: 100% ;
+    }
+
+    .appContent2{
+        width: 100%;
+        display: flex;
+    }
+
+    .appImage1, .appImage2{
+        display: none;
+    }
+    
+
+    .appImage3{
+        display: block;
+        margin-top: 6.5rem;
+       width: 100%;
+    }
+
+    .appImage3 img{
+        max-width: 100%;
+    }
+
+    .appImage4{
+        display: block;
+        margin-bottom: 6.5rem;
+       width: 100%; 
+    }
+
+    .appImage4 img{
+        max-width: 100%;
+    }
+
+    .appBtn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .appBtn button{
+        width: 100%;
+    }
+
+    .appBtn p{
+        margin-bottom: 12px;
+    }
+
     
 }

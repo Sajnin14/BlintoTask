@@ -454,6 +454,76 @@ nav {
     display: block;
 }
 
+/* Download App Section starts */
+.appSection{
+    background-color: #EEF2FF;
+    /* position: relative; */
+}
+
+.appContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+}
+
+.appContent1{
+    margin: 8.563rem 0;
+    width: 100% ;
+}
+
+.appContent1 p{
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+}
+
+.blue-color{
+    color: #4F46E5;
+    border: 1px solid #4F46E5;
+    background-color: #EEF2FF;
+}
+
+.appBtn{
+    display: flex;
+}
+
+.appContent2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    position: relative;
+}
+
+.appContent2 img{
+    /* max-width: 100%; */
+    max-width: 72%;
+}
+
+.appImage1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.appImage2 img{
+    max-width: 100%;
+}
+
+.appImage2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.appImage3, .appImage4{
+    display: none;
+}
+
+
+
+
 
 
 
