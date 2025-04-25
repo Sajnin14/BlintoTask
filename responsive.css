@@ -123,5 +123,30 @@
         padding-right: 2rem;
         margin-bottom: 8px;
     }
+
+
+    /* testimonials section */
+    .testimonial-contents {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    /* .testimonial-subContent:nth-child(n+5) {
+        display: none;
+      } */
+
+      .card-hidden{
+        display: none;
+    } 
+
+    .loadingCardbtn{
+        display: block;
+    }
+
+    .lessCardbtn{
+        display: none;
+    }
     
 }

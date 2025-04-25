@@ -15,11 +15,15 @@ header {
     background-image: linear-gradient(#FDFBFF, #FCFEFF, #FBFCFF, #FAFCFF, #F9FCFF, #F7FCFF, #F3FCFF, #F1FCFF, #EEF7FF, #D1DBFB, #CBD5E1, #888EE3);
 }
 
+.margin {
+    margin: 24px 0;
+}
+
 .padding {
     padding: 0 7rem;
 }
 
-.padding-t-b{
+.padding-t-b {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
@@ -41,7 +45,7 @@ h1 {
     margin: 1.5rem auto;
 }
 
-h3{
+h3 {
     font-size: 2.25rem;
     font-weight: 800;
     color: #1E293B;
@@ -49,16 +53,22 @@ h3{
     margin: 1.5rem auto;
 }
 
+h5 {
+    color: #1E293B;
+    font-weight: 700;
+    line-height: 22px;
+}
+
 .text18 {
     font-size: 1.125rem;
 }
 
 
-.text20{
+.text20 {
     font-size: 1.25rem;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -192,19 +202,19 @@ nav {
     justify-content: center;
 }
 
-.brand-flex div{
+.brand-flex div {
     width: 100%;
 }
 
 
 /* Primary/main Features Section Starts */
-.featureHeading{
+.featureHeading {
     text-align: center;
     margin: 0 13rem;
     margin-bottom: 1rem;
 }
 
-.featureContent{
+.featureContent {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -212,7 +222,7 @@ nav {
     text-align: center;
 }
 
-.featureTitle{
+.featureTitle {
     color: #1E293B;
     font-size: 1.25rem;
     font-weight: 700;
@@ -221,43 +231,43 @@ nav {
     margin-bottom: 0.5rem;
 }
 
-.subContent div{
+.subContent div {
     width: 100%;
     display: flex;
-   justify-content: center;
-   
+    justify-content: center;
+
 }
 
-.subContent img{
+.subContent img {
     max-width: 5rem;
     max-height: 5rem;
-    
+
 }
 
 
 /* Result Section Styles */
-.result-section{
+.result-section {
     background-color: #F8FAFC;
 }
 
-.result-content{
+.result-content {
     margin-left: 12.8rem;
     margin-right: 12.8rem;
 }
 
-.result-icon{
+.result-icon {
     background-color: #EEF2FF;
     padding: 14px;
     border-radius: 50%;
     border: none;
 }
 
-.result-icon img{
+.result-icon img {
     max-height: 28px;
     max-width: 28px;
 }
 
-.result-details{
+.result-details {
     margin-top: 4rem;
     font-weight: 700;
     display: flex;
@@ -265,39 +275,39 @@ nav {
     /* align-items: center; */
 }
 
-.result-title{
+.result-title {
     color: #4F46E5;
     font-size: 3.75rem;
-    
+
 }
 
 /* .result-text{
     font-size: 1.125rem;
     font-weight: 700;
 } */
-.border{
+.border {
     border-left: 1px solid #CBD5E1;
 }
 
 
 /* Procastinators section styles */
-.procrastinators-head{
+.procrastinators-head {
     max-width: 680px;
     max-height: 180px;
 }
 
-.procrastinators-content{
+.procrastinators-content {
     margin-top: 4rem;
     display: flex;
     gap: 2rem;
 }
 
-.subSection1{
+.subSection1 {
     margin: 3.875rem 0;
     /* height: 100%; */
 }
 
-.subSection1 div{
+.subSection1 div {
     /* padding: 2rem 0; */
     width: 468px;
     height: 156px;
@@ -305,25 +315,74 @@ nav {
     margin-bottom: 8px;
 }
 
-.proc-border{
+.proc-border {
     width: 4px;
     border-radius: 2px;
     background-color: #E0E7FF;
     /* background-color: #4F46E5; */
 }
 
-.subSection1 div:hover .proc-border{
+.subSection1 div:hover .proc-border {
     background-color: #4F46E5;
 }
 
-.subSection2{
+.subSection2 {
     width: 100%;
 }
-.subSection2 img{
-   max-height: 100%;
-   max-width: 100%;
-   /* max-width: 592px;
+
+.subSection2 img {
+    max-height: 100%;
+    max-width: 100%;
+    /* max-width: 592px;
    max-height: 592px; */
+}
+
+
+/* Testimonials section Styles */
+
+.testimonial-section {
+    background-color: #F8FAFC;
+
+}
+
+.testimonial-contents {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.testimonial-subContent {
+    border: 1px solid #E2E8F0;
+    border-radius: 24px;
+    padding: 24px;
+    height:fit-content;
+}
+
+
+
+.testimonial-contents ion-icon {
+    color: #F59E0B;
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.testimonial-part {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.loadingCardbtn{
+    display: none;
+}
+
+/* .card-hidden{
+    display: none;
+}  */
+
+.lessCardbtn{
+    display: none;
 }
 
 
