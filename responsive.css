@@ -74,4 +74,31 @@
         gap: 2rem;
         text-align: center;
     }
+
+    .subContent img{
+        max-width: 4rem;
+        max-height: 4rem;
+        
+    }
+
+
+    /* result section responsive */
+    .result-content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .result-details{
+        margin-top: 4rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+    }
+
+    .border{
+        border-bottom: 1px solid #CBD5E1;
+    }
 }
