@@ -148,5 +148,15 @@
     .lessCardbtn{
         display: none;
     }
+
+
+    /* our office responsive */
+
+    .our-office-content{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
     
 }

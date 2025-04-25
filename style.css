@@ -37,6 +37,10 @@ header {
     font-weight: 400;
 }
 
+.color-secondary{
+    color: #1E293B;
+}
+
 h1 {
     color: #1E293B;
     font-size: 3.7rem;
@@ -58,6 +62,7 @@ h5 {
     font-weight: 700;
     line-height: 22px;
 }
+
 
 .text18 {
     font-size: 1.125rem;
@@ -360,7 +365,6 @@ nav {
 }
 
 
-
 .testimonial-contents ion-icon {
     color: #F59E0B;
     margin-right: 8px;
@@ -384,5 +388,25 @@ nav {
 .lessCardbtn{
     display: none;
 }
+
+
+/* our office section started */
+
+.our-office-content{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.country{
+    color: #1E293B;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    line-height: 160%;
+}
+
 
 
