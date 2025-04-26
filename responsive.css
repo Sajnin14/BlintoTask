@@ -169,12 +169,12 @@
     }
 
     .appContent1{
-        margin: 1rem 0;
-        width: 100% ;
+        padding: 1rem;
+        width:94%;
+        
     }
 
     .appContent2{
-        width: 100%;
         display: flex;
     }
 
@@ -214,6 +214,34 @@
 
     .appBtn p{
         margin-bottom: 12px;
+    }
+
+    /* services section responsive */
+    .service-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+
+    /* footer section
+     */
+     .footer-section{
+        border-top: 1px 
+        solid #CBD5E1;
+        padding-top: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+
+    .item-2{
+        order: 3;
+        margin-top: 1rem;
     }
 
     
